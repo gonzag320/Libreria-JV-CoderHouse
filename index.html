@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap" rel="stylesheet">
+  <title>Suplementos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>VOLVETE MAS FUERTE</h1>
+</header>
+
+  <form id="form">
+    <label for="nombre">Ingrese su nombre:</label>
+        <input type="text" id="nombre" class="slider" required>
+            <br>
+    <label for="nombre">Ingrese su domicilio:</label>
+        <input type="text" id="direccion" class="slider" required>
+            <br>
+    <label for="nombre">Ingrese su correo:</label>
+        <input type="email" id="correo" class="slider" required>
+            <br>
+    <label for="nombre">Ingrese su teléfono</label>
+        <input type="number" id="telefono" class="slider" required>
+            <br>
+    <label for="nombre">Por favor revisa que todos los datos sean correctos</label>
+            <br>
+            <br>
+                <input type="submit" value="Enviar" id="botonForm">
+  </form>
+
+<br>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div id="producto-contenedor">
+        <!-- Este es el stock -->
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row2">
+  <div class="column2">
+    <div id="carrito">
+     <!-- Este es el carrito de cards comprados -->
+    </div>
+  </div>
+</div>
+
+
+<div id="totales">
+</div>
+
+<br>
+
+
+<!-- aqui va el footer  -->
+<!-- <footer id="foot">
+  <span>GonzaGonzalez</span>
+</footer> -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="stock.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
